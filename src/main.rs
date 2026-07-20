@@ -64,6 +64,9 @@ let b: f32 = input.trim().parse().unwrap();
 
  (a, b)
 }
+/*for learning purposes i nver refactored
+the code ,, you might notice the code
+repetion in below arithmetic functions*/
 fn add() {
  let (a, b) =  numbers();
  let results = a + b;
