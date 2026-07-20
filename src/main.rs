@@ -84,6 +84,10 @@ fn multiply() {
 }
 fn divide() {
  let (a, b) =  numbers();
+if b == 0.0 {
+    println!("Cannot divide by zero.");
+    return;
+}
  let results = a / b;
 println!("The quotient = {}", results);
 }
